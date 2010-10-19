@@ -13,3 +13,7 @@ Example
     :username: redmine
     :password: 'redmine_for_edavis10'
     :database: 'redmine'
+
+Then include the recipe in your application_manifest.rb
+
+  recipe :database_yml
