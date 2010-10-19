@@ -1,0 +1,15 @@
+Configure in your moonshine.yml like:
+
+:database:
+  :environment:
+    # ... configuration
+
+Example
+
+:database:
+  :production:
+    :adapter: mysql
+    :host: localhost
+    :username: redmine
+    :password: 'redmine_for_edavis10'
+    :database: 'redmine'
